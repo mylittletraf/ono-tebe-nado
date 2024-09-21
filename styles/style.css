@@ -17,15 +17,16 @@
 .header__links-list {
     display: flex;
     list-style: circle;
-    gap: 30px;
+    gap: 9px;
+
 }
 
 .header__links-list-item {
-
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 0.01em;
+    padding-left: 22px;
 }
 
 .header__links-list-item_no-bullit {
@@ -55,7 +56,7 @@
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.01em;
-    padding-left: 75px;
+    padding-left: 94px;
 }
 
 .content {
