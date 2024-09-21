@@ -17,7 +17,7 @@
 .header__links-list {
     display: flex;
     list-style: circle;
-    gap: 9px;
+    padding-left: 12px;
 
 }
 
@@ -25,8 +25,8 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    letter-spacing: 0.01em;
-    padding-left: 22px;
+    padding-left: 8px;
+    list-style-position: inside;
 }
 
 .header__links-list-item_no-bullit {
@@ -60,9 +60,84 @@
 }
 
 .content {
+
 }
 
 .cover {
+    position: relative;
+    background-image: url("../images/cover.jpg");
+    padding: 378px;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    inset: 0;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.cover__title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 165px 50px 123px 50px;
+    gap: 10px;
+    font-size: 100px;
+    line-height: 115%;
+    letter-spacing: 0.3em;
+
+}
+
+
+.aligned-text {
+    text-align: left;
+}
+
+.aligned-text_center {
+    text-align: center;
+    margin-left: -58px;
+}
+
+.aligned-text_right {
+    text-align: right;
+    margin-right: -30px;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 58px
+}
+
+.no-letter-spacing {
+    letter-spacing: 0
+}
+
+.cover__description {
+    display: flex;
+    justify-content: space-between;;
+}
+
+.cover__description-text {
+
+    font-size: 22px;
+    line-height: 28px;
+    padding: 12px 76px 0 79px;
+    word-spacing: 18px;
+}
+
+.bet-button {
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    margin-right: 51px;
+    padding: 13px 32px 10px 30px;
+
+
 }
 
 .lots {
