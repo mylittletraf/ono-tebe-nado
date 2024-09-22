@@ -43,6 +43,7 @@
 .address {
     font-size: 18px;
     font-style: normal;
+    width: 75%;
 }
 
 .header__address {
