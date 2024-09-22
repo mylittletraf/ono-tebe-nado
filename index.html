@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8"/>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="fonts/fonts.css" rel="stylesheet">
     <link href="styles/global.css" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet">
@@ -11,17 +11,22 @@
 </head>
 <body>
 <header class="header">
-    <nav class="header__menu">
+    <nav>
         <ul class="header__links-list">
-            <li class="header__links-list-item header__links-list-item_no-bullit header__link_active">главная</li>
-            <li class="header__links-list-item">посмотреть лоты</li>
-            <li class="header__links-list-item">об аукционе</li>
+            <li class="header__links-list-item header__links-list-item_no-bullit header__link_active">
+                <a class="header__link header__link_active" href="#">главная</a>
+            </li>
+            <li class="header__links-list-item">
+                <a class="header__link" href="#">посмотреть лоты</a>
+            </li>
+            <li class="header__links-list-item">
+                <a class="header__link" href="#">об аукционе</a>
+            </li>
         </ul>
     </nav>
 
     <a class="header__logo" href="#">
-        <img class="header__logo-image" src="images/logo-black.svg"
-             alt="Логотип с надписью Оно тебе надо">
+        <img alt="Логотип с надписью Оно тебе надо" src="images/logo-black.svg">
     </a>
 
     <address class="address header__address">
@@ -30,19 +35,26 @@
         <p>наб. Принсенграхт 263-<br>265, Амстердам</p>
     </address>
 </header>
-<main class="content">
+<main>
     <section class="cover">
         <div class="overlay">
             <h1 class="cover__title">
-                <span class="aligned-text">О<span class="letter-spacing-extended">н</span><span
-                        class="no-letter-spacing">о</span></span>
-                <span class="aligned-text_center">те<span class="letter-spacing-extended">б</span><span
-                        class="no-letter-spacing">е</span></span>
-                <span class="aligned-text_right"><span class="letter-spacing-extended">н</span>адо
-                </span>
+            <span class="aligned-text"
+            >О<span class="letter-spacing-extended">н</span
+            ><span class="no-letter-spacing">о</span></span
+            >
+                <span class="aligned-text_center"
+                >те<span class="letter-spacing-extended">б</span
+                ><span class="no-letter-spacing">е</span></span
+                >
+                <span class="aligned-text_right"
+                ><span class="letter-spacing-extended">н</span>адо
+            </span>
             </h1>
             <div class="cover__description">
-                <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+                <p class="cover__description-text">
+                    Аукцион вещей, в которые никто не верил
+                </p>
                 <button class="bet-button" type="button">Сделать ставку</button>
             </div>
         </div>
@@ -55,10 +67,12 @@
                     <article class="card card_type_film">
                         <div class="overlay">
                             <div class="card__content">
-                                <h1 class="card__title">Фильм режиссёра, который бросил киношколу</h1>
-                                <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                                    ставка,
-                                    если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+                                <h2 class="card__title"> Фильм режиссёра, который бросил киношколу </h2>
+                                <p class="card__text">
+                                    Не просто бросил, а ушёл с первой лекции. Какой была бы
+                                    ваша ставка, если бы вы не знали, что режиссёр — Пол Томас
+                                    Андерсон?
+                                </p>
                             </div>
                         </div>
                     </article>
@@ -69,14 +83,16 @@
                     <article class="card card_type_book">
                         <div class="overlay">
                             <div class="card__content">
-                                <h1 class="card__title">Книга, где описан один скучный день из жизни рекламного
-                                    агента</h1>
-                                <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
-                                    переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904
-                                    года и
-                                    об истории литературы, начиная с античных времён. И это всё накладывается на
-                                    эпическую
-                                    поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+                                <h2 class="card__title"> Книга, где описан один скучный день из жизни рекламного
+                                    агента</h2>
+                                <p class="card__text">
+                                    Объёмом почти в тысячу страниц. Иногда без знаков
+                                    препинания и с переходами на древнеанглийский. В ней
+                                    одновременно рассказывается о 16 июня 1904 года и об
+                                    истории литературы, начиная с античных времён. И это всё
+                                    накладывается на эпическую поэму Гомера. Сколько бы вы
+                                    поставили на «Улисса» Джеймса Джойса?
+                                </p>
                             </div>
                         </div>
                     </article>
@@ -87,11 +103,15 @@
                     <article class="card card_type_picture">
                         <div class="overlay">
                             <div class="card__content">
-                                <h1 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h1>
-                                <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
-                                    похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на
-                                    такое
-                                    поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+                                <h2 class="card__title"> Картина, которую повторит даже 5-летний сын маминой
+                                    подруги</h2>
+                                <p class="card__text">
+                                    Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                                    что-то похожее на инфузорию-туфельку. Никаких полей,
+                                    лесов, котиков... Сколько бы вы на такое поставили, если
+                                    бы не знали, что это — одна из революционных работ
+                                    Кандинского?
+                                </p>
                             </div>
                         </div>
                     </article>
@@ -100,28 +120,31 @@
         </ul>
         <a class="lots__look-more-link" href="#">посмотреть больше</a>
     </section>
-    <section class="about">
-
-        <div class="about__logo">
-            <img class="about__logo-image" src="images/logo-white.svg" alt="Логотип с надписью Оно тебе надо">
-
-        </div>
-        <div class="about__text_title">
-            <h2 class="about__title">Об аукционе</h2>
-        </div>
-        <div class="about__text">
-            <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
-                Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник
-                девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи,
-                созданные любителями?</p>
-            <p class="about__text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах
-                растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
-                на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную
-                культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали
-                культовыми. </p>
-        </div>
-    </section>
-
+    <article class="about">
+        <aside class="about__logo">
+            <img alt="Логотип с надписью Оно тебе надо" class="about__logo-image" src="images/logo-white.svg">
+        </aside>
+        <h2 class="about__text_title about__title">
+            Об аукционе
+        </h2>
+        <aside class="about__text">
+            <p class="about__text">
+                Здесь вы не встретите очередное пафосное собрание невероятно
+                дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
+                один аукцион. Потому что кому нужен дневник девочки-подростка или
+                картина, которую может нарисовать даже ребёнок? Кому нужны все эти
+                странные вещи, созданные любителями?
+            </p>
+            <p class="about__text">
+                Слишком сложные или, наоборот, слишком простые. Опережающие своё
+                время. В пух и прах растерзанные критиками. Непринятые и непонятые.
+                Когда-то они казались просто неудачными. Но, несмотря на критику,
+                кажущуюся простоту или сложность, сейчас без этих лотов невозможно
+                представить современную культуру. Когда в эти вещи не верил никто,
+                продолжали верить их создатели. И сейчас эти лоты стали культовыми.
+            </p>
+        </aside>
+    </article>
 </main>
 <footer class="footer">
     <address class="address">
@@ -138,32 +161,24 @@
     </nav>
     <ul class="footer__social-list">
         <li class="footer__social-list-item">
-            <a class="footer__social-link">
-                <a href="#" class="footer__social-link"><img class="footer__social-icon" src="images/yt.svg"
-                                                             alt="Иконка YouTube"></a>
-
-
+            <a class="footer__social-link" href="#">
+                <img alt="Иконка YouTube" class="footer__social-icon"
+                     src="images/yt.svg">
             </a>
         </li>
         <li class="footer__social-list-item">
-            <a class="footer__social-link">
-
-                <a href="#" class="footer__social-link"><img class="footer__social-icon" src="images/vk.svg"
-                                                             alt="Иконка Vk"></a>
-
-
+            <a class="footer__social-link" href="#">
+                <img alt="Иконка Vk" class="footer__social-icon"
+                     src="images/vk.svg">
             </a>
         </li>
         <li class="footer__social-list-item">
-            <a class="footer__social-link">
-                <a href="#" class="footer__social-link"><img class="footer__social-icon" src="images/pinterest.svg"
-                                                             alt="Иконка Pinterest"></a>
-
+            <a class="footer__social-link" href="#">
+                <img class="footer__social-icon" src="images/pinterest.svg"
+                     alt="Иконка Pinterest">
             </a>
         </li>
     </ul>
-
 </footer>
-
 </body>
 </html>
