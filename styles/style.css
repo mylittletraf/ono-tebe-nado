@@ -233,7 +233,7 @@
 .about__logo {
     grid-area: about-logo;
     justify-self: center;
-    border-radius: 127px;
+    border-radius: 50%;
     background-color: black;
 }
 
