@@ -153,7 +153,7 @@
 
 .card {
     position: relative;
-    padding-bottom: 563px;
+    min-height: 563px;
     width: 100%;
 }
 
